@@ -1,0 +1,2 @@
+Python 3.10+
+Libraries: yfinance, pandas, numpy, scipy, scikit-learn, lightgbm, xgboost, imblearn
