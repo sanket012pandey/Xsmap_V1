@@ -1,0 +1,30 @@
+ENHANCED MODEL PERFORMANCE:
+Test Accuracy: 0.9829
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.98      1.00      0.99       389
+           1       1.00      0.65      0.79        20
+
+    accuracy                           0.98       409
+   macro avg       0.99      0.82      0.89       409
+weighted avg       0.98      0.98      0.98       409
+
+Confusion Matrix:
+[[389   0]
+ [  7  13]]
+
+Top 10 Most Important Features:
+   feature         importance
+49 volatility_20d  0.394563
+4  roc_5           0.025335
+12 ema_12          0.023858
+21 macd_histogram  0.022778
+
+
+Individual Model Performance:
+XGB:  Accuracy=0.9951
+RF:   Accuracy=0.9853
+LGBM: Accuracy=0.9951
+
